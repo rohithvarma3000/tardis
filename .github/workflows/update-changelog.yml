@@ -3,12 +3,9 @@
 
 name: changelog
 
-on:
-  push:
-    tags:
-    - 'release-*'
+on: push
 
-  workflow_dispatch:  # Manual trigger
+# workflow_dispatch:  # Manual trigger
 
 jobs:
   push:
@@ -17,8 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          repository: tardis-sn/tardis
-          token: ${{ secrets.BOT_TOKEN }}
+          repository: rohithvarma3000/tardis
           fetch-depth: 0
 
       - name: Install github-changes
@@ -36,4 +32,6 @@ jobs:
         run: |
           git add CHANGELOG.md
           git commit -m "Post-release updates [auto]"
+          git status
+          git remote -v
           git push
