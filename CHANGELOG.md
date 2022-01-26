@@ -1,6 +1,9 @@
 ## Change Log
 
-### upcoming (2022/01/25 19:46 +00:00)
+### upcoming (2022/01/26 20:05 +00:00)
+- [#1843](https://github.com/tardis-sn/tardis/pull/1843) Changed default Log level to INFO (#1843) (@DhruvSondhi)
+- [#1849](https://github.com/tardis-sn/tardis/pull/1849) Interactive docs for models (#1849) (@smithis7)
+- [#1876](https://github.com/tardis-sn/tardis/pull/1876) fixed pytest tardis command in documentation (#1876) (@afloers)
 - [#1874](https://github.com/tardis-sn/tardis/pull/1874) move transport related parts to r_packet_transport (#1874) (@wkerzendorf)
 - [#1872](https://github.com/tardis-sn/tardis/pull/1872) Fix links in the code of conduct (#1872) (@smithis7)
 - [#1847](https://github.com/tardis-sn/tardis/pull/1847) Add a ModelState class (#1847) (@atharva-2001)
