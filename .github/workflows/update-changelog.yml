@@ -44,6 +44,7 @@ jobs:
           git commit --amend --no-edit
           GIT_TAG_MESSAGE=$(git tag -l --format='%(contents)' ${{ github.ref_name }})
           git tag -d ${{ github.ref_name }}
-          git push origin :${{ github.ref_name }}
           git tag -a ${{ github.ref_name }} -m "$GIT_TAG_MESSAGE"
+          git checkout master
+          git push origin :${{ github.ref_name }}
           git push
