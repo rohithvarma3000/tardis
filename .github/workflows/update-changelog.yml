@@ -8,7 +8,7 @@ name: changelog
 on: 
   push:
     tags:
-      - 'release-**'
+      - release-**
 
 # workflow_dispatch:  # Manual trigger
 
