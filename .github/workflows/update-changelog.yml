@@ -46,5 +46,6 @@ jobs:
           git tag -d ${{ github.ref_name }}
           git tag -a ${{ github.ref_name }} -m "$GIT_TAG_MESSAGE"
           git checkout master
-          git push origin :${{ github.ref_name }}
+          git push --delete origin ${{ github.ref_name }}
+          git tag
           git push
