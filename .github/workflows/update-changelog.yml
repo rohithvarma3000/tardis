@@ -36,5 +36,5 @@ jobs:
       - name: Push changes
         run: |
           git add CHANGELOG.md
-          git commit --amend
+          git commit --amend --no-edit
           git push
