@@ -8,7 +8,7 @@ name: changelog
 on: 
   push:
     tags:
-    - 'release-**'
+      - 'release-**'
 
 # workflow_dispatch:  # Manual trigger
 
@@ -36,5 +36,5 @@ jobs:
       - name: Push changes
         run: |
           git add CHANGELOG.md
-          git commit -m "Post-release updates [auto]"
+          git commit --amend
           git push
