@@ -48,4 +48,4 @@ jobs:
           git checkout master
           git push --delete origin ${{ github.ref_name }}
           git tag
-          git push
+          git push --tags
