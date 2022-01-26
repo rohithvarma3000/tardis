@@ -42,4 +42,8 @@ jobs:
         run: |
           git add CHANGELOG.md
           git commit --amend --no-edit
+          GIT_TAG_MESSAGE=$(git tag -l --format='%(contents)' ${{ github.ref_name }})
+          git tag -d ${{ github.ref }}
+          git push origin :${{ github.ref }}
+          git tag -a ${{ github.ref }} -m "$GIT_TAG_MESSAGE"
           git push
