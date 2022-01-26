@@ -20,8 +20,8 @@ jobs:
       - name: Github context
         env:
           TEST: ${{ toJson(github.context) }}
-        run: echo "$TEST"
-        
+        run: echo "$GITHUB_CONTEXT"
+
       - uses: actions/checkout@v2
         with:
           repository: rohithvarma3000/tardis
