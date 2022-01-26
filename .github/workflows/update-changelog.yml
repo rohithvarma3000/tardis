@@ -17,6 +17,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Github context
+        env:
+          TEST: ${{ toJson(github.context) }}
+        run: echo "$TEST"
+        
       - uses: actions/checkout@v2
         with:
           repository: rohithvarma3000/tardis
