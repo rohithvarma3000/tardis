@@ -39,4 +39,4 @@ jobs:
           git tag -d ${{ github.ref_name }}
           git tag -a ${{ github.ref_name }} -m "$GIT_TAG_MESSAGE"
           git checkout master
-          git push --tags --force
+          git push --tags
