@@ -1,5 +1,51 @@
 ## Change Log
 
+### upcoming (2022/01/28 08:09 +00:00)
+- [#1877](https://github.com/tardis-sn/tardis/pull/1877) printing packet information (#1877) (@wkerzendorf)
+- [#1867](https://github.com/tardis-sn/tardis/pull/1867) Arepo parser (#1867) (@AlexHls)
+- [#1843](https://github.com/tardis-sn/tardis/pull/1843) Changed default Log level to INFO (#1843) (@DhruvSondhi)
+- [#1849](https://github.com/tardis-sn/tardis/pull/1849) Interactive docs for models (#1849) (@smithis7)
+- [#1876](https://github.com/tardis-sn/tardis/pull/1876) fixed pytest tardis command in documentation (#1876) (@afloers)
+- [#1874](https://github.com/tardis-sn/tardis/pull/1874) move transport related parts to r_packet_transport (#1874) (@wkerzendorf)
+- [#1872](https://github.com/tardis-sn/tardis/pull/1872) Fix links in the code of conduct (#1872) (@smithis7)
+- [#1847](https://github.com/tardis-sn/tardis/pull/1847) Add a ModelState class (#1847) (@atharva-2001)
+
+### release-2022.1.23 (2022/01/21 16:50 +00:00)
+- [#1865](https://github.com/tardis-sn/tardis/pull/1865) fixing links (#1865) (@smithis7)
+- [#1866](https://github.com/tardis-sn/tardis/pull/1866) Refactor `test_configuration_namespace.py` (#1866) (@atharva-2001)
+- [#1861](https://github.com/tardis-sn/tardis/pull/1861) Renamed `RPacketCollection` Class to `RPacketTracker` (#1861) (@DhruvSondhi)
+
+### release-2022.1.16 (2022/01/12 15:11 +00:00)
+- [#1827](https://github.com/tardis-sn/tardis/pull/1827) Adding Explanations to Spectrum Configuration (#1827) (@bartnikm)
+- [#1752](https://github.com/tardis-sn/tardis/pull/1752) Add tests to SDEC plotter module (#1752) (@jaladh-singhal)
+- [#1848](https://github.com/tardis-sn/tardis/pull/1848) Switching progress bars page to rst (#1848) (@smithis7)
+
+### release-2022.1.9 (2022/01/06 15:59 +00:00)
+- [#1846](https://github.com/tardis-sn/tardis/pull/1846) Fix Virtual Packet Logging Bug (#1846) (@atharva-2001)
+
+### release-2021.12.19 (2021/12/13 18:38 +00:00)
+- [#1834](https://github.com/tardis-sn/tardis/pull/1834) Adding Luminosity Integral Explanation to Supernova Configuration (#1834) (@bartnikm)
+- [#1842](https://github.com/tardis-sn/tardis/pull/1842) Fixed fstring issue from mixing quotes and reformatted files from fstring PR with black (#1842) (@Rodot-)
+- [#1841](https://github.com/tardis-sn/tardis/pull/1841) Fixed the Failing Documentation for Tracking `RPacket` Feature  (#1841) (@DhruvSondhi)
+
+### release-2021.12.12 (2021/12/10 17:30 +00:00)
+- [#1835](https://github.com/tardis-sn/tardis/pull/1835) Reorganizing docs for website release (#1835) (@smithis7)
+- [#1748](https://github.com/tardis-sn/tardis/pull/1748) Tracking RPacket Properties in Montecarlo Single Packet Loop Function (#1748) (@DhruvSondhi)
+- [#1706](https://github.com/tardis-sn/tardis/pull/1706) Changed to fstring (#1706) (@svenkat19)
+- [#1833](https://github.com/tardis-sn/tardis/pull/1833) Editing instructions for contributing to the documentation (#1833) (@smithis7)
+
+### release-2021.12.5 (2021/12/02 19:14 +00:00)
+- [#1832](https://github.com/tardis-sn/tardis/pull/1832) Convert quantities to arrays when plotting in SDEC plot (#1832) (@atharva-2001)
+- [#1830](https://github.com/tardis-sn/tardis/pull/1830) Name plotly traces in SDEC plot (#1830) (@atharva-2001)
+
+### release-2021.11.28 (2021/11/25 17:29 +00:00)
+- [#1825](https://github.com/tardis-sn/tardis/pull/1825) changed all files to import constants from only tardis (#1825) (@shilpiprd)
+
+### release-2021.11.14 (2021/11/12 14:24 +00:00)
+- [#1799](https://github.com/tardis-sn/tardis/pull/1799) Bug fixes and Improvements in Custom Abundance Widget (#1799) (@yuyizheng1112)
+- [#1803](https://github.com/tardis-sn/tardis/pull/1803) Option to make docs build in parallel (#1803) (@smithis7)
+- [#1817](https://github.com/tardis-sn/tardis/pull/1817) Fixing SDEC docs page (#1817) (@smithis7)
+
 ### release-2021.10.31 (2021/10/27 19:00 +00:00)
 - [#1821](https://github.com/tardis-sn/tardis/pull/1821) remove numexpr  (#1821) (@wkerzendorf)
 - [#1788](https://github.com/tardis-sn/tardis/pull/1788) Add cmap option to specify the colormap of abundance plot (#1788) (@yuyizheng1112)
